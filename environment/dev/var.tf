@@ -80,6 +80,7 @@ variable "hcl_nic1" {
     location = string
     rg_name  = string
   }))
+  default = {}
 }
 
 variable "hcl_vms1" {
